@@ -29,6 +29,3 @@ const lightbox = new SimpleLightbox(".gallery li a", {
   scrollbarWidth: 20
 });
 
-galleryContainer.addEventListener('click', (event) => {
-    event.preventDefault();
-  });
